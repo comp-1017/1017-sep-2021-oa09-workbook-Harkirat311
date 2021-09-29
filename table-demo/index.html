@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head> 
+<title>Table Demo</title>
+<meta charset="utf-8">
+<meta name="author" content="harkirat singh">
+</head>
+<body>
+    <h1>Table demo</h1>
+    <p>a table is a way to create a structured grid display of data
+        The paired tags(open/close) will be interested in are:
+    </p>
+<ul>
+    <li>&lt;table&gt; : identifies the start of the table</li>
+    <li>&lt;thead&gt; : identifies the header row of the table</li>
+    <li>&lt;tbody&gt; : identifies the data detail body of the table</li>
+    <li>&lt;tfoot&gt; : identifies the footer row of the table</li>
+    <li>&lt;tr&gt; : identifies the start of the row on the table</li>
+    <li>&lt;th&gt; : identifies the cell on the header row for the column title</li>
+    <li>&lt;td&gt; : identifies the cell on the detail row or footer row to hold content</li>
+</ul>
+<P>some tag have parameters. the border parameters of the table tag applies
+    the border around your table. the colspan parameter and the rowspan parameter are used on the &lt;td&gt;
+    tab to allow you to merger colums on a single row or column cells across rows.
+</P>
+<table border="1">
+    <thead>
+        <tr>
+            <th></th>
+      <th>course#</th>  
+      <th>name</th>
+      <th>hours</th> 
+      <th>Pass criteria</th>
+    </tr>
+    </thead>
+    <tbody>
+<tr>
+    <td><img src="img/telephone.png" alt="telephone"> </td>
+    <td>COMP1017 </td>
+    <td>Web Design Fundamentals I</td>
+    <td>60</td>
+    <td>Overall 50%</td>
+</tr>
+<tr>
+    <td><img src="img/money.png" alt="money"> </td>
+    <td>COMP1008 </td>
+    <td>Digital Graphic Design Tools</td>
+    <td>60</td>
+    <td>Overall 50%</td>
+</tr>
+<tr>
+    <td><img src="img/computer.png" alt="computer"> </td>
+    <td>CPSC1517</td>
+    <td>Introduction to application Development</td>
+    <td>90</td>
+    <td>Overall 50% and minimum 50% in theory and project components</td>
+</tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <td></td>
+            <td colspan="2">Total hours</td>
+            <td>120</td>
+           <td></td>
+        </tr>
+    </tfoot>
+</table>
+</body>
+</html>
